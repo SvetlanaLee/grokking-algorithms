@@ -13,7 +13,7 @@ const arr = [90, 130, 130, 145, 168, 280, 286, 290, 300, 300, 300, 305, 400, 410
 
 const pages = 296;
 
-function binarySearch (arr, pages) {
+function binarySearch(arr, pages) {
   let start = 0;
   let end = arr.length - 1;
   let result = 0;
